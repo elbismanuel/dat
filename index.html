@@ -170,6 +170,14 @@
 				shape: 'box'
 			},
 			{
+				id: 'tramites',
+				label: 'Trámites 📄\n\nProcesos y solicitudes', 
+				level: 4,
+				color: { background: '#EF4C4C', border: '#be3c3c' },
+				font: { color: 'white', align: 'center' },
+				shape: 'box'
+			},
+			{
 				id: 'validacion',
 				label: 'Validación Digital 👆\n\nAutenticación biométrica\nde funcionarios',
 				level: 4,
@@ -202,6 +210,7 @@
 			{ from: 'intranet', to: 'agenda', arrows: 'to' },
 			{ from: 'intranet', to: 'noticias', arrows: 'to' },
 			{ from: 'intranet', to: 'correspondencia', arrows: 'to' },
+			{ from: 'intranet', to: 'tramites', arrows: 'to' },
 			{ from: 'intranet', to: 'validacion', arrows: 'to' }
 		]);
 
